@@ -4,7 +4,7 @@ import './App.css'
 
 
 
-export default function Home() {
+export default function Feed() {
   const [item, setItem] = useState([]);
   const [category, setCategory] = useState([]);
   const [author, setAuthor] = useState([]);

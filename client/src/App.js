@@ -8,7 +8,7 @@ import {
   Link
 } from "react-router-dom";
 import Users from "./Users"
-import Home from "./Home"
+import Feed from "./Feed"
 
 
 export default function App() {
@@ -49,10 +49,10 @@ export default function App() {
     <div className="App"> 
           <Router>
             <Link to="/users">Users</Link>
-            <Link to="/home">Home</Link>
+            <Link to="/feed">Feed</Link>
             <Routes>
             <Route path='/users' element={<Users/>} />
-            <Route path='/home' element={<Home/>} />
+            <Route path='/feed' element={<Feed/>} />
             </Routes>
           </Router>
       
